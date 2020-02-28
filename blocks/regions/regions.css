@@ -1,0 +1,10 @@
+.regions {
+    width: 100%;
+    padding-top: 92px;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .regions {
+        padding-top: 64px;
+    }
+}

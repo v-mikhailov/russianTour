@@ -1,0 +1,10 @@
+.regions__main-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+    .regions__main-container {
+        flex-direction: column;
+    }
+}

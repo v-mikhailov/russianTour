@@ -1,0 +1,27 @@
+.regions__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    width:  47.4%;
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .regions__title {
+        width: 100%;
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .regions__title {
+        font-size: 42px;
+        width: 46%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .regions__title {
+      max-width: 457px;
+    }
+  }

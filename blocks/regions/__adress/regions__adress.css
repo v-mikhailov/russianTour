@@ -1,0 +1,9 @@
+.regions__adress{
+    display: block;
+    margin-top: 16px;
+    border-bottom: 1px solid transparent;
+}
+
+.regions__adress:hover {
+    border-color: white;
+}

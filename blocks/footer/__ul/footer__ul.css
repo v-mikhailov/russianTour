@@ -1,0 +1,15 @@
+.footer__ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__ul {
+        flex-direction: column;
+        margin-top: 0;
+        margin-bottom: 48px;
+    }
+}

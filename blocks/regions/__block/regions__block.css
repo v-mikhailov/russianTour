@@ -1,0 +1,7 @@
+.regions__block {
+    margin-bottom: 72px;
+}
+
+.regions__block:last-child {
+    margin-bottom: 0;
+}

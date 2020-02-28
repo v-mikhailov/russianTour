@@ -1,0 +1,64 @@
+.cover-container {
+    position: relative;
+    width: 100%;
+    background-image: url(../../../images/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 211px;
+    padding-bottom: 48px;
+    box-sizing: border-box;
+}
+
+
+.cover-container::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left:0;
+    opacity: 0.3;
+    background-color: black;
+}
+
+.cover-container:hover::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left:0;
+    opacity: 0.5;
+    background-color: black;
+}
+
+@media screen and (max-width: 374px) {
+    .cover-container {
+        padding-top: 64px;
+        padding-bottom: 24px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .cover-container {
+        padding-top: 104px;
+        padding-bottom: 24px;
+        min-height: 272px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .cover-container {
+        padding-top: 165px;
+        padding-bottom: 40px;
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+    .cover-container {
+        max-width: 1184px;
+        margin: 0 auto;
+        padding-top: 284px;
+    }
+}

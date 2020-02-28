@@ -1,0 +1,32 @@
+.cover__content-subtitle {
+    position: relative;
+    width: 40.3%;
+    font-weight: normal;
+    font-size: 18px;
+    z-index: 99;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 374px) {
+    .cover__content-subtitle  {
+        font-size: 14px;
+        width: 90%;
+        text-align: center; 
+    }
+}
+
+@media (min-width: 375px) and (max-width: 459px) {
+    .cover__content-subtitle  {
+        font-size: 14px;
+        width: 91.4%;
+        text-align: center;
+    }
+} 
+
+@media (min-width: 460px) and (max-width: 767px) {
+    .cover__content-subtitle {
+        width: 70%;
+        font-size: 14px;
+        text-align: center;
+    }
+}

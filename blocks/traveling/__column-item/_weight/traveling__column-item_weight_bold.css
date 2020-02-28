@@ -1,0 +1,9 @@
+.traveling__column-item_weight_bold {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+    .traveling__column-item_weight_bold {
+        font-weight: normal;
+    }
+} 

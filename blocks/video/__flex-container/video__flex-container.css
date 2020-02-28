@@ -1,0 +1,9 @@
+.video__flex-container {
+    width: calc(100% - 30px);
+}
+
+@media screen and (max-width: 1023px) {
+    .video__flex-container {
+        width: calc(100% - 24px);
+    }
+}

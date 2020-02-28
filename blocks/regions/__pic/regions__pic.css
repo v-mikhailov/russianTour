@@ -1,0 +1,25 @@
+.regions__pic {
+  display: block;
+  align-self: flex-start;
+  width:  47.4%;
+}
+
+@media screen and (max-width: 767px) {
+  .regions__pic {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .regions__pic {
+    width: 47.2%;
+  }
+}
+
+
+@media screen and (min-width: 1280px) {
+  .regions__pic {
+    max-width: 460px;
+  }
+}

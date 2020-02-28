@@ -1,0 +1,8 @@
+.header__menu {
+    width: 100%;
+    max-width: 1184px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+

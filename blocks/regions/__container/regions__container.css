@@ -1,0 +1,23 @@
+.regions__container {
+    width: 90.6%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+    .regions__container {
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .regions__container {
+        width: 93.7%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .regions__container {
+        width: 984px;
+    }
+}

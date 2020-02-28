@@ -1,0 +1,5 @@
+.lang-items {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}

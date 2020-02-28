@@ -1,0 +1,22 @@
+.regions__text-container {
+    width: 49.1%;
+}
+
+@media screen and (max-width: 767px) {
+    .regions__text-container {
+        width: 91.4%;
+        align-self: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .regions__text-container {
+        width: 48.8%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .regions__text-container {
+        max-width: 484px;
+    }
+} 

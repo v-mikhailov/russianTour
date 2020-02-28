@@ -1,0 +1,20 @@
+.traveling__title {
+    margin-top: 0;
+    margin-bottom: 48px;
+    font-weight: 900;
+    font-size: 54px;
+}
+
+@media screen and (max-width: 374px) {
+    .traveling__title {
+        width: 85%;
+        font-size: 32px;
+    }
+}
+@media (min-width: 375px) and (max-width: 767px) {
+    .traveling__title {
+        width: 64%;
+        margin-bottom: 42px;
+        font-size: 32px;
+    }
+}

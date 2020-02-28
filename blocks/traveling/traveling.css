@@ -1,0 +1,12 @@
+.traveling {
+    font-family: Inter, sans-serif;
+    color: #fff;
+    padding-top: 80px;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .traveling {
+        padding-top: 64px;
+    }
+}
+

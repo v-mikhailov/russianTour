@@ -1,0 +1,10 @@
+.lang {
+    margin-left: 18px;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 767px) {
+    .lang {
+        font-size: 18px;
+    }
+}

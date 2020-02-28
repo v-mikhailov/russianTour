@@ -1,0 +1,9 @@
+.comments {
+    padding-top: 81px;
+}
+
+@media screen and (max-width: 767px) {
+    .comments {
+        padding-top: 64px;
+    }
+}

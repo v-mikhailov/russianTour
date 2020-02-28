@@ -1,0 +1,9 @@
+.video {
+    padding-top: 102px;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .video {
+        padding-top: 64px;
+    }
+}
